@@ -1,0 +1,33 @@
+.border(@color:#dfdfdf) {
+	border: 1px solid @color;
+}
+
+.list {
+	width: 1300px;
+	margin: 20px auto;
+	.border(#000);
+	// background-color: rgba(0, 0, 0, 0.1);
+	position: relative;
+
+	li {
+		display: inline-block;
+		width: 200px;
+		height: 200px;
+		margin: 20px 0 0 20px;
+		.border;
+	}
+
+	img {
+		width: 200px;
+		height: 200px;
+	}
+
+}
+
+.img-move {
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
